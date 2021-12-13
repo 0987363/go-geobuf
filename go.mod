@@ -4,5 +4,5 @@ go 1.16
 
 require (
 	github.com/davecgh/go-spew v1.1.1
-	github.com/golang/protobuf v1.5.2
+	github.com/golang/protobuf v1.3.5
 )
