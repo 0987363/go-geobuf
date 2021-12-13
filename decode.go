@@ -1,9 +1,9 @@
 package geobuf
 
 import (
-	"github.com/cairnapp/go-geobuf/pkg/decode"
-	"github.com/cairnapp/go-geobuf/pkg/geojson"
-	"github.com/cairnapp/go-geobuf/proto"
+	"github.com/0987363/go-geobuf/pkg/decode"
+	"github.com/0987363/go-geobuf/pkg/geojson"
+	"github.com/0987363/go-geobuf/proto"
 )
 
 func Decode(msg *proto.Data) interface{} {

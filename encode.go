@@ -1,10 +1,10 @@
 package geobuf
 
 import (
-	"github.com/cairnapp/go-geobuf/pkg/encode"
-	"github.com/cairnapp/go-geobuf/pkg/geojson"
-	"github.com/cairnapp/go-geobuf/pkg/math"
-	"github.com/cairnapp/go-geobuf/proto"
+	"github.com/0987363/go-geobuf/pkg/encode"
+	"github.com/0987363/go-geobuf/pkg/geojson"
+	"github.com/0987363/go-geobuf/pkg/math"
+	"github.com/0987363/go-geobuf/proto"
 )
 
 func Encode(obj interface{}) *proto.Data {

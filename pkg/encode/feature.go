@@ -1,8 +1,8 @@
 package encode
 
 import (
-	"github.com/cairnapp/go-geobuf/pkg/geojson"
-	"github.com/cairnapp/go-geobuf/proto"
+	"github.com/0987363/go-geobuf/pkg/geojson"
+	"github.com/0987363/go-geobuf/proto"
 )
 
 func EncodeFeature(feature *geojson.Feature, opts *EncodingConfig) (*proto.Data_Feature, error) {

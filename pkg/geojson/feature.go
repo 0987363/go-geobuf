@@ -1,6 +1,6 @@
 package geojson
 
-import "github.com/cairnapp/go-geobuf/pkg/geometry"
+import "github.com/0987363/go-geobuf/pkg/geometry"
 
 type Properties map[string]interface{}
 
